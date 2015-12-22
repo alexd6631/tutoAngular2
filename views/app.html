@@ -1,0 +1,14 @@
+<!-- Navbar goes here -->
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Logo</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a [routerLink]="['Weather']">Weather</a></li>
+            <li><a [routerLink]="['Page2']">Page 2</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- Page Layout here -->
+<div class="container">
+<router-outlet></router-outlet>
+</div>
